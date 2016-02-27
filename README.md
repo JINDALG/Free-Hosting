@@ -1,13 +1,13 @@
 # Free-Hosting
 Follow below instruction for hosting your website
 
-https://cloud.google.com/appengine/downloads open this link
+Go to https://cloud.google.com/appengine/downloads
 
-download SDK as per your operating system
+Download SDK for Python as per your operating system
 
-clone this repository and unzip files
+clone repository(https://github.com/JINDALG/Free-Hosting.git) or download zip file
 
-place the file in a folder named "website".
+Create folder named "website" and place all downloaded file in it.
 
 replace the index.html with your website files
 
