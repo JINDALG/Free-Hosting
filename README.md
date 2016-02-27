@@ -9,23 +9,22 @@ clone repository(https://github.com/JINDALG/Free-Hosting.git) or download zip fi
 
 Create folder named "website" and place all downloaded file in it.
 
-replace the index.html with your website files
+Go to Template folder and relace index.html file with your website's file
 
-rename your html file as index.html
+Rename your main html file with index.html
 
-place this folder into googleappengine folder (where your SDK install)
+place this(website) folder into googleappengine folder (where your SDK install)
 
-open the url https://cloud.google.com/ and click on my consol (top right corner)
+Go to https://cloud.google.com/ and click on my consol (top right corner)
 
-create new project.
+Create new project.
 
-go to googleappengine folder in terminal/cmd
+After creating project a project id will be generate.
 
-run the following command 
+Go to googleappengine folder in terminal/cmd
 
-appcfg.py -A <YOUR_PROJECT_ID_> update website/
+Run the following command  appcfg.py -A <YOUR_PROJECT_ID_> update website/
 
 your website is now hosted to see your website open 
 
 http://your-app-id.appspot.com/
-
